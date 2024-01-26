@@ -1,37 +1,53 @@
-# GameHub
+# GameExplorer Project
 
-GameHub is a video game discovery web app that helps you find new and interesting games to play. With GameHub, you can search for games by platform, genre, and more. 
+[GameHub.webm](https://github.com/homayunmmdy/GameHub/assets/129702378/54abfb2a-7c20-479f-8dc4-38cf3217d878)
 
-This is the project we build in my Ultimate React course. You can find the full course at: https://codewithmosh.com 
+Welcome to GameExplorer, a dynamic game project that fetches data from the RWAG (Real World Arcade Games) API and presents it with an eye-catching UI. This project allows you to filter games by genre and platform, offers seamless ordering functionality, and even supports searching through the vast game library.
+
+## Features
+
+- **Data Fetching:** Utilizes RWAG API to fetch real-time game data.
+- **Filtering:** Easily filter games based on genre and platform preferences.
+- **Ordering:** Arrange games according to your preferences.
+- **Search Functionality:** Quickly locate specific games using the search feature.
+- **User Interaction:** Engage with the project by giving stars to your favorite games.
+
+## UI Design
+
+GameExplorer boasts an attractive user interface, ensuring a visually pleasing experience. The project incorporates beautiful loading animations to enhance user experience, even on slower internet connections.
+
+## Prerequisites
+
+Before getting started, make sure you have Node.js installed on your system. You can download it from [nodejs.org](https://nodejs.org/).
 
 ## Getting Started
 
-To get started with GameHub, follow these steps:
+Follow these simple steps to clone and run the project:
 
+1. Clone the repository to your local machine:
 
-1. Clone this repository to your local machine.
-2. Run `npm install` to install the required dependencies.
-3. Get a RAWG API key at https://rawg.io/apidocs. You'll have to create an account first. 
-4. Add the API key to **src/services/api-client.ts**
-5. Run `npm run dev` to start the web server. 
+   ```bash
+   git clone https://github.com/your-username/GameExplorer.git
+   ```
 
-## About the Course 
+2. Navigate to the project directory:
 
-I have designed this course to teach you everything you need to know to become a proficient React developer. This course is the first part of a two-part series, covering the fundamentals. You'll learn how to:
+   ```bash
+   cd GameExplorer
+   ```
 
-- Build front-end apps with React and TypeScript
-- Build reusable function components
-- Style your components using vanilla CSS, CSS modules, and CSS-in-JS
-- Manage component state
-- Build forms with React Hook Forms
-- Implement form validation using Zod
-- Connect your React apps to the backend
-- Deploy your React apps
-- Use VSCode shortcuts to increase your productivity
-- Write clean code like a pro
-- Apply best practices
+3. Install project dependencies:
 
+   ```bash
+   npm install
+   ```
 
-By the end of this course, you'll have a solid understanding of React and be able to build real-world applications with React and TypeScript.
+4. Run the project using Next.js:
 
-You can find the full course at: https://codewithmosh.com 
+   ```bash
+   npm run dev
+   ```
+
+Now, open your web browser and go to [http://localhost:3000](http://localhost:3000) to explore the world of games with GameExplorer.
+
+Feel free to contribute, report issues, or give the project a star if you find it enjoyable!
