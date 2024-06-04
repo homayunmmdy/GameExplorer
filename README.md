@@ -22,32 +22,10 @@ Before getting started, make sure you have Node.js installed on your system. You
 
 ## Getting Started
 
-Follow these simple steps to clone and run the project:
+To get started, follow these steps:
 
-1. Clone the repository to your local machine:
-
-   ```bash
-   git clone https://github.com/your-username/GameExplorer.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd GameExplorer
-   ```
-
-3. Install project dependencies:
-
-   ```bash
-   npm install
-   ```
-
-4. Run the project using Next.js:
-
-   ```bash
-   npm run dev
-   ```
-
-Now, open your web browser and go to [http://localhost:3000](http://localhost:3000) to explore the world of games with GameExplorer.
-
-Feel free to contribute, report issues, or give the project a star if you find it enjoyable!
+1. Clone this repository to your local machine.
+2. Run `npm install` to install the required dependencies.
+3. Get a RAWG API key at https://rawg.io/apidocs. You'll have to create an account first.
+4. Add the API key to **src/services/api-client.ts**
+5. Run `npm run dev` to start the web server.
